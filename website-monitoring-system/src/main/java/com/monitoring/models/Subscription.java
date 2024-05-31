@@ -21,10 +21,10 @@ public class Subscription {
     }
 
     public void cancelSubscription() {
-        // Logic to cancel subscription
+        
     }
 
-    // Getters and setters
+
     public String getSubscriptionID() {
         return subscriptionID;
     }

@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class User {
-    private String userID;
+    private final String userID;
     private String email;
     private String phoneNumber;
-    private List<Subscription> subscriptions;
+    private final List<Subscription> subscriptions;
 
     public User(String userID, String email, String phoneNumber) {
         this.userID = userID;
